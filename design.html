@@ -6,20 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <title>設計你的 Model 3 | Tesla</title>
-    <meta name="description" content="設計及訂購 Tesla Model 3——您的未來之車了解租賃、貸款及現金付款選項、質保、電動車獎勵、汽油節約量等資訊" />
-    <meta name="keywords" content="Model 3、Tesla Model 3、設計你的 Model 3、Tesla 設計、Tesla 設定程式、Tesla 設計室、打造 Model 3、Model 3 規格、電動車、電動汽車、訂購 Model 3、Model 3 內飾、Model 3 外觀、Model 3 儲物空間、Model 3 座椅、Model 3 performance" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="設計你的 Model 3 | Tesla" />
-    <meta property="og:description" content="設計及訂購 Tesla Model 3——您的未來之車了解租賃、貸款及現金付款選項、質保、電動車獎勵、汽油節約量等資訊" />
-
-    <link rel="icon" type="image/png" href="https://www.tesla.com/sites/all/themes/custom/tesla_theme/assets/img/icons/favicon-16x16.png?2" sizes="16x16">
-    <link rel="icon" type="image/png" href="https://www.tesla.com/sites/all/themes/custom/tesla_theme/assets/img/icons/favicon-32x32.png?2" sizes="32x32">
+    <link rel="icon" href="https://ejack.china-internic.net/wp-content/uploads/2020/12/cropped-faviou-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://ejack.china-internic.net/wp-content/uploads/2020/12/cropped-faviou-192x192.png" sizes="192x192" />
     <link rel="stylesheet" href="./css/reset-design.css">
-	<link rel="stylesheet" href="./css/design.css">
-	<script src="./js/countUp.js"></script>
+    <link rel="stylesheet" href="./css/design.css">
+    <script src="./js/countUp.js"></script>
     <style>
-		
-		
         .main-page {
             height: 100%;
             width: 100%;
@@ -178,9 +170,10 @@
             border-radius: 20px;
             background-color: #3e6ae1;
         }
-		.footer .btn-next.disabled {
-			opacity: .6;
-		}
+        
+        .footer .btn-next.disabled {
+            opacity: .6;
+        }
         
         .main-content {
             height: 100%;
@@ -192,7 +185,7 @@
             width: 100%;
             height: 100%;
             position: relative;
-			display: none;
+            display: none;
         }
         
         .mainbox .content-big {
@@ -228,8 +221,8 @@
             width: 240px;
             text-align: center;
             color: #666666;
-			    flex-direction: column;
-			    justify-content: center;
+            flex-direction: column;
+            justify-content: center;
         }
         
         .content-big .info li:not(:last-child) {
@@ -242,7 +235,10 @@
             font-family: "Gotham Light", "system", sans-serif;
             line-height: 38px;
         }
-		.content-big .info li p strong {font-weight: 100;}
+        
+        .content-big .info li p strong {
+            font-weight: 100;
+        }
         
         .content-big .info li span {
             font-size: 15px;
@@ -258,12 +254,16 @@
             box-sizing: border-box;
         }
         
-        .content-sider::-webkit-scrollbar-thumb, .form-container::-webkit-scrollbar-thumb, .main-content::-webkit-scrollbar-thumb {
+        .content-sider::-webkit-scrollbar-thumb,
+        .form-container::-webkit-scrollbar-thumb,
+        .main-content::-webkit-scrollbar-thumb {
             border-radius: 6px;
             background-color: #ddd;
         }
         
-        .content-sider::-webkit-scrollbar, .form-container::-webkit-scrollbar, .main-content::-webkit-scrollbar {
+        .content-sider::-webkit-scrollbar,
+        .form-container::-webkit-scrollbar,
+        .main-content::-webkit-scrollbar {
             width: 8px;
         }
         
@@ -311,233 +311,365 @@
             font-size: 13px;
             border-radius: 25px;
         }
-		.sider-group .group-btn.group-btn-selected {
-			border-color: #007fff;
-			box-shadow: 0 0 0 2px #007fff;
-		}
-		
-		.style-select-group {
-			margin-bottom: 10px;
-		}
-		.select_option_detail {
-			    justify-content: space-between;
-			    font-size: 13px;
-		}
-		.btn-select-style {
-			width: 60px;cursor: pointer;
-		}
-		.btn-select-style .seleted-circle {
-			display: none;
-		}
-		.btn-select-style.btn-selected-style .seleted-circle {
-			display: block;
-		}
-		.style-select-group .group--options_asset {margin-right: .2em;width: 60px;}
-		.style-group-box:not(:first-child) {
-			border-top:1px solid #ddd;margin-top: 20px;
-		}
+        
+        .sider-group .group-btn.group-btn-selected {
+            border-color: #007fff;
+            box-shadow: 0 0 0 2px #007fff;
+        }
+        
+        .style-select-group {
+            margin-bottom: 10px;
+        }
+        
+        .select_option_detail {
+            justify-content: space-between;
+            font-size: 13px;
+        }
+        
+        .btn-select-style {
+            width: 60px;
+            cursor: pointer;
+        }
+        
+        .btn-select-style .seleted-circle {
+            display: none;
+        }
+        
+        .btn-select-style.btn-selected-style .seleted-circle {
+            display: block;
+        }
+        
+        .style-select-group .group--options_asset {
+            margin-right: .2em;
+            width: 60px;
+        }
+        
+        .style-group-box:not(:first-child) {
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        
         .style-group-box .sider-title {
-			margin-top: 10px;
-		}
-		.list-info-box {
-			
-		}
-		.list-info-ul {
-			list-style-type: disc;
-			    padding-left: 18px;
-				margin-left: 8px;
-		}
-		.list-info-box .list-info-item {
-			color: #666;font-size: 13px;
-			    margin-bottom: .6em;line-height: 24px;
-		}
-		.asset-zoom-wrap {
-			min-height: 200px;
-			    overflow: hidden;
-		}
-		.asset-zoom-wrap h2 {
-			margin: 10px 0 15px;
-			text-align: center;
-			    font-size: 25px;
-		}
-		.review-image {min-height: 200px;
-    justify-content: center;
-    align-items: center;}
-		
-		.asset-zoom-wrap img {
-			width: 100%;
-			    transition: all .5s;
-			    position: relative;
-		}
-		.sider-price-detail-box {
-			
-		}
-		.sider-price-detail-box .title {
-			padding: 15px 0 10px;font-size: 18px;    font-weight: 400;
-    color: #333;border-bottom: 1px solid hsla(0,0%,80%,.8);
-		}
-		.sider-price-detail-box li {
-			font-size: 14px;
-			    line-height: 20px;color: #666;
-		}
-		.sider-price-box {
-			margin-bottom: 25px;
-		}
-		.sider-price-box .item, .sider-price-box li {
-			justify-content: space-between;font-size: 14px;
-			line-height: 30px;
-		}
-		.sider-price-box .sub-txt {
-				font-size: 12px;line-height: 24px;
-		}
-		.sider-price-box.order-detail .item-price {
-			display: none;
-		}
-		.order-detail li {
-			color: #666;
-		}
-		.sider-price-box .price-val {
-			font-size: 22px;color: #333;
-		}
-		.order-agreement {font-size: 13px;
-    padding-top: 15px;
-    display: inline-block;line-height: 1.5;
-    color: #666;}
-		.order-agreement a {
-			color: #393c41;font-size: 13px;text-decoration: underline;
-		}
-		.order-payment {
-			margin: 25px 20px 10px;display: none;
-		}
-		.order-payment button {
-			width: 100%;height: 36px;text-align: center;line-height: 36px;	font-size: 13px;color: #fff;background-color: #3E6AE1;border-radius: 20px;
-		}
-		.order-payment button.disabled {background-color: #9FB5F0;}
-		.form-container {
-			padding: 3% 10%;
-			    max-width: 1000px;
-			    height: calc(100% - 20px);
-			    overflow-y: scroll;
-				background-color: #F4F4F4;
-		}
-		.form-container .sec-title {
-			margin: 20px 0 15px;
-			    font-size: 18px;
-		}
-		.form-box {
-			margin-bottom: 30px;flex-wrap: wrap;    border-bottom: 1px solid #ccc;
-		}
-		.form-box .form-item {
-			margin-bottom: 24px;width: 50%;box-sizing: border-box;
-		}
-		.form-box .form-item .labelname {
-			color: #5C5E62;font-weight: 500;
-			font-size: 13px;margin: 0 20px 8px;
-		}
-		.form-box .form-item:nth-child(even) {
-			padding-left: 10px;
-		}
-		.form-item:nth-child(odd) {
-			padding-right: 10px;
-		}
-			.form-box .form-item .input-box {
-				
-			}
-		.form-box .form-item input {
-			width: 100%;box-sizing: border-box;background-color: #fff;
-			    border: 1px solid transparent;
-			    border-radius: 20px;
-			    transition: border .25s cubic-bezier(.5,.25,.25,.75);
-				padding: 10px 20px;
-				font-weight: 500;font-size: 14px;line-height: 18px;
-		}
-		.form-box .form-item .txt-err {
-			margin: 0 20px;padding-top: 4px;line-height: 16px;font-size: 12px;color: #B74134;text-align: right;visibility: hidden;
-		}
-		.form-box .error .txt-err {visibility: visible;}
-		
-		.footer-min {
-			padding: 10px 0 20px;
-			height: auto;
-		}
-		.footer.footer-min .price-info-item {
-			line-height: 32px;font-size: 16px;text-align: center;
-		}
-		.footer-min .showDetail-btn {
-			position: absolute;right: 20px;top: 10px;z-index: 999;
-			width: 22px;height: 22px;
-			border: 1px solid #fff;
-			border-radius: 50%;cursor: pointer;
-		}
-		.footer-min .showDetail-btn::after {
-			content: '';
-			    position: absolute;
-			    left: 7px;
-			    top: 7px;
-			    z-index: 1000;
-			    width: 6px;
-			    height: 6px;
-			    border-top: 3px solid #fff;
-			    border-left: 3px solid #fff;
-			    transform: rotate(45deg);
-		}
-		.svgimg-hide {
-			height: 60% !important;
-		}
-		/* media */
-		@media (max-width: 1021px) {
-			.header .logo {flex:1;}
-			.header .menu {display: none;}
-		}
-		@media (max-width: 862px) {
-			.main-page {padding-bottom: 0;}
-			.footer {display: none;}
-			.main-content {overflow-y: auto;}
-			.mainbox {flex-direction: column;display: flex !important;height: auto;}
-			.mainbox .content-big {flex-basis: 100%;border-right: none;}
-			.mainbox.mainbox1 .content-big {
-				    flex-basis: 300px;
-				    flex-grow: 0;
-				    flex-shrink: 0;
-			}
-			.mainbox.mainbox2 .content-big {
-				    flex-basis: 150px;
-				    flex-grow: 0;
-				    flex-shrink: 0;
-			}
-			.mainbox.mainbox3 .content-big {
-				    flex-basis: 200px;
-				    flex-grow: 0;padding: 0 10px;
-				    flex-shrink: 0;
-			}
-			.style-select-group {justify-content: center;}
-			.select_option_detail {justify-content: center;}
-			.select_option_detail span {padding: 0 10px;}
-			.mainbox .content-sider {width: 100%;	overflow-y: visible;padding:20px 50px;}
-			.asset-zoom-wrap {display: none;}
-			.form-box {border: none;}
-			.content-sider .order-payment {
-				display: block;
-			}
-		}
-		@media (max-width: 560px) {
-			.content-big .info {bottom:0;}
-			.content-big .info li {
-				flex: 1;
-				width: auto;
-			}
-			.content-big .info li p {
-				font-size: 30px;
-			}
-			.content-big .info li p span {
-				font-size: 16px;
-				    line-height: 27px;
-			}
-			.form-box .form-item {
-				width: 100%;padding-left: 0;padding-right: 0;
-			}
-		}
-		
+            margin-top: 10px;
+        }
+        
+        .list-info-box {}
+        
+        .list-info-ul {
+            list-style-type: disc;
+            padding-left: 18px;
+            margin-left: 8px;
+        }
+        
+        .list-info-box .list-info-item {
+            color: #666;
+            font-size: 13px;
+            margin-bottom: .6em;
+            line-height: 24px;
+        }
+        
+        .asset-zoom-wrap {
+            min-height: 200px;
+            overflow: hidden;
+        }
+        
+        .asset-zoom-wrap h2 {
+            margin: 10px 0 15px;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        .review-image {
+            min-height: 200px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .asset-zoom-wrap img {
+            width: 100%;
+            transition: all .5s;
+            position: relative;
+        }
+        
+        .sider-price-detail-box {}
+        
+        .sider-price-detail-box .title {
+            padding: 15px 0 10px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            border-bottom: 1px solid hsla(0, 0%, 80%, .8);
+        }
+        
+        .sider-price-detail-box li {
+            font-size: 14px;
+            line-height: 20px;
+            color: #666;
+        }
+        
+        .sider-price-box {
+            margin-bottom: 25px;
+        }
+        
+        .sider-price-box .item,
+        .sider-price-box li {
+            justify-content: space-between;
+            font-size: 14px;
+            line-height: 30px;
+        }
+        
+        .sider-price-box .sub-txt {
+            font-size: 12px;
+            line-height: 24px;
+        }
+        
+        .sider-price-box.order-detail .item-price {
+            display: none;
+        }
+        
+        .order-detail li {
+            color: #666;
+        }
+        
+        .sider-price-box .price-val {
+            font-size: 22px;
+            color: #333;
+        }
+        
+        .order-agreement {
+            font-size: 13px;
+            padding-top: 15px;
+            display: inline-block;
+            line-height: 1.5;
+            color: #666;
+        }
+        
+        .order-agreement a {
+            color: #393c41;
+            font-size: 13px;
+            text-decoration: underline;
+        }
+        
+        .order-payment {
+            margin: 25px 20px 10px;
+            display: none;
+        }
+        
+        .order-payment button {
+            width: 100%;
+            height: 36px;
+            text-align: center;
+            line-height: 36px;
+            font-size: 13px;
+            color: #fff;
+            background-color: #3E6AE1;
+            border-radius: 20px;
+        }
+        
+        .order-payment button.disabled {
+            background-color: #9FB5F0;
+        }
+        
+        .form-container {
+            padding: 3% 10%;
+            max-width: 1000px;
+            height: calc(100% - 20px);
+            overflow-y: scroll;
+            background-color: #F4F4F4;
+        }
+        
+        .form-container .sec-title {
+            margin: 20px 0 15px;
+            font-size: 18px;
+        }
+        
+        .form-box {
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .form-box .form-item {
+            margin-bottom: 24px;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        
+        .form-box .form-item .labelname {
+            color: #5C5E62;
+            font-weight: 500;
+            font-size: 13px;
+            margin: 0 20px 8px;
+        }
+        
+        .form-box .form-item:nth-child(even) {
+            padding-left: 10px;
+        }
+        
+        .form-item:nth-child(odd) {
+            padding-right: 10px;
+        }
+        
+        .form-box .form-item .input-box {}
+        
+        .form-box .form-item input {
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            transition: border .25s cubic-bezier(.5, .25, .25, .75);
+            padding: 10px 20px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        
+        .form-box .form-item .txt-err {
+            margin: 0 20px;
+            padding-top: 4px;
+            line-height: 16px;
+            font-size: 12px;
+            color: #B74134;
+            text-align: right;
+            visibility: hidden;
+        }
+        
+        .form-box .error .txt-err {
+            visibility: visible;
+        }
+        
+        .footer-min {
+            padding: 10px 0 20px;
+            height: auto;
+        }
+        
+        .footer.footer-min .price-info-item {
+            line-height: 32px;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .footer-min .showDetail-btn {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            z-index: 999;
+            width: 22px;
+            height: 22px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .footer-min .showDetail-btn::after {
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 7px;
+            z-index: 1000;
+            width: 6px;
+            height: 6px;
+            border-top: 3px solid #fff;
+            border-left: 3px solid #fff;
+            transform: rotate(45deg);
+        }
+        
+        .svgimg-hide {
+            height: 60% !important;
+        }
+        /* media */
+        
+        @media (max-width: 1021px) {
+            .header .logo {
+                flex: 1;
+            }
+            .header .menu {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 862px) {
+            .main-page {
+                padding-bottom: 0;
+            }
+            .footer {
+                display: none;
+            }
+            .main-content {
+                overflow-y: auto;
+            }
+            .mainbox {
+                flex-direction: column;
+                display: flex !important;
+                height: auto;
+            }
+            .mainbox .content-big {
+                flex-basis: 100%;
+                border-right: none;
+            }
+            .mainbox.mainbox1 .content-big {
+                flex-basis: 300px;
+                flex-grow: 0;
+                flex-shrink: 0;
+            }
+            .mainbox.mainbox2 .content-big {
+                flex-basis: 150px;
+                flex-grow: 0;
+                flex-shrink: 0;
+            }
+            .mainbox.mainbox3 .content-big {
+                flex-basis: 200px;
+                flex-grow: 0;
+                padding: 0 10px;
+                flex-shrink: 0;
+            }
+            .style-select-group {
+                justify-content: center;
+            }
+            .select_option_detail {
+                justify-content: center;
+            }
+            .select_option_detail span {
+                padding: 0 10px;
+            }
+            .mainbox .content-sider {
+                width: 100%;
+                overflow-y: visible;
+                padding: 20px 50px;
+            }
+            .asset-zoom-wrap {
+                display: none;
+            }
+            .form-box {
+                border: none;
+            }
+            .content-sider .order-payment {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 560px) {
+            .content-big .info {
+                bottom: 0;
+            }
+            .content-big .info li {
+                flex: 1;
+                width: auto;
+            }
+            .content-big .info li p {
+                font-size: 30px;
+            }
+            .content-big .info li p span {
+                font-size: 16px;
+                line-height: 27px;
+            }
+            .form-box .form-item {
+                width: 100%;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
     </style>
 </head>
 
@@ -557,9 +689,9 @@
                     <li class="menu-item flex-wrap">
                         <h2><span>外觀</span></h2>
                     </li>
-                    <li class="menu-item flex-wrap">
+                    <!-- <li class="menu-item flex-wrap">
                         <h2><span>裝飾風格</span></h2>
-                    </li>
+                    </li> -->
                     <li class="menu-item flex-wrap">
                         <h2><span>付款方式</span></h2>
                     </li>
@@ -614,53 +746,53 @@
                     </div>
                 </div>
             </div>
-			<!-- 外观 -->
-			<div class="mainbox mainbox2 flex-wrap">
-			    <div class="content-big flex-con flex-wrap" style="flex-direction: column;justify-content: space-between;">
-			        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container svg-banner svgimg-hide asset-loader-2 group--main-content--asset group--main-content--asset__EXTERIOR_GROUP m3" style="overflow: hidden; opacity: 1; transform: scale(1.3); height: 100%;"><defs></defs><image width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/configurator/compositor?&amp;options=$MT320,$PPSW,$W40B,$IBB0,$DRRH&amp;view=STUD_FRONT34&amp;model=m3&amp;size=1920&amp;bkba_opt=1&amp;version=v0028d202012220939&amp;crop=0,0,0,0&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt=""></image></svg>
-			    </div>
-			    <div class="content-sider">
-					<div class="style-group-box">
-						<h3 class="sider-title">選取顏色</h3>
-						<div class="style-select-group flex-wrap">
-							<div class="btn-select-style btn-selected-style">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsw.png__version_v0028d202012220939_PPSW__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsw.png__version_v0028d202012220939_PPSW__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsw.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="珍珠白 (多塗層)" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsw.png?&amp;version=v0028d202012220939$PPSW__asset__false)" x="12.5%" y="12.5%"></image></svg>
-							</div>
-							<div class="btn-select-style">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pbsb.png__version_v0028d202012220939_PBSB__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pbsb.png__version_v0028d202012220939_PBSB__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pbsb.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="純黑 " clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pbsb.png?&amp;version=v0028d202012220939$PBSB__asset__false)" x="12.5%" y="12.5%"></image></svg>
-							</div>
-							<div class="btn-select-style">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pmng.png__version_v0028d202012220939_PMNG__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pmng.png__version_v0028d202012220939_PMNG__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pmng.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="夜銀" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pmng.png?&amp;version=v0028d202012220939$PMNG__asset__false)" x="12.5%" y="12.5%"></image></svg>
-							</div>
-							<div class="btn-select-style">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsb.png__version_v0028d202012220939_PPSB__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsb.png__version_v0028d202012220939_PPSB__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsb.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="深藍" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsb.png?&amp;version=v0028d202012220939$PPSB__asset__false)" x="12.5%" y="12.5%"></image></svg>
-							</div>
-							<div class="btn-select-style">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppmr.png__version_v0028d202012220939_PPMR__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppmr.png__version_v0028d202012220939_PPMR__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppmr.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="亮紅 (多塗層)" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppmr.png?&amp;version=v0028d202012220939$PPMR__asset__false)" x="12.5%" y="12.5%"></image></svg>
-							</div>
-						</div>
-						<div class="select_option_detail flex-wrap" >
-							<span class="select-val">夜銀</span>
-							<span style="color:#666;">HK$7,800</span>
-						</div>
-					</div>
-					<div class="style-group-box">
-						<h3 class="sider-title">選取車輪</h3>
-						<div class="style-select-group flex-wrap">
-							<div class="btn-select-style">
-								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_option-wheels-18-aero.png__version_v0028d202012220939_W40B__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_option-wheels-18-aero.png__version_v0028d202012220939_W40B__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/option-wheels-18-aero.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="18’’ Aero 版車輪" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/option-wheels-18-aero.png?&amp;version=v0028d202012220939$W40B__asset__false)" x="12.5%" y="12.5%"></image></svg>
-							</div>
-						</div>
-						<div class="select_option_detail flex-wrap" >
-							<span class="select-val">18’’ Aero 版車輪</span>
-							<span style="color:#666;">已包括</span>
-						</div>
-					</div>
-			        
-			    </div>
-			</div>
+            <!-- 外观 -->
+            <div class="mainbox mainbox2 flex-wrap">
+                <div class="content-big flex-con flex-wrap" style="flex-direction: column;justify-content: space-between;">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container svg-banner svgimg-hide asset-loader-2 group--main-content--asset group--main-content--asset__EXTERIOR_GROUP m3" style="overflow: hidden; opacity: 1; transform: scale(1.3); height: 100%;"><defs></defs><image width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/configurator/compositor?&amp;options=$MT320,$PPSW,$W40B,$IBB0,$DRRH&amp;view=STUD_FRONT34&amp;model=m3&amp;size=1920&amp;bkba_opt=1&amp;version=v0028d202012220939&amp;crop=0,0,0,0&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt=""></image></svg>
+                </div>
+                <div class="content-sider">
+                    <div class="style-group-box">
+                        <h3 class="sider-title">選取顏色</h3>
+                        <div class="style-select-group flex-wrap">
+                            <div class="btn-select-style btn-selected-style">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsw.png__version_v0028d202012220939_PPSW__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsw.png__version_v0028d202012220939_PPSW__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsw.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="珍珠白 (多塗層)" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsw.png?&amp;version=v0028d202012220939$PPSW__asset__false)" x="12.5%" y="12.5%"></image></svg>
+                            </div>
+                            <div class="btn-select-style">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pbsb.png__version_v0028d202012220939_PBSB__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pbsb.png__version_v0028d202012220939_PBSB__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pbsb.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="純黑 " clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pbsb.png?&amp;version=v0028d202012220939$PBSB__asset__false)" x="12.5%" y="12.5%"></image></svg>
+                            </div>
+                            <div class="btn-select-style">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pmng.png__version_v0028d202012220939_PMNG__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_pmng.png__version_v0028d202012220939_PMNG__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pmng.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="夜銀" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_pmng.png?&amp;version=v0028d202012220939$PMNG__asset__false)" x="12.5%" y="12.5%"></image></svg>
+                            </div>
+                            <div class="btn-select-style">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsb.png__version_v0028d202012220939_PPSB__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppsb.png__version_v0028d202012220939_PPSB__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsb.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="深藍" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppsb.png?&amp;version=v0028d202012220939$PPSB__asset__false)" x="12.5%" y="12.5%"></image></svg>
+                            </div>
+                            <div class="btn-select-style">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset shadow" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppmr.png__version_v0028d202012220939_PPMR__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_ui_swat_col_ppmr.png__version_v0028d202012220939_PPMR__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" class="seleted-circle" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppmr.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="亮紅 (多塗層)" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/ui_swat_col_ppmr.png?&amp;version=v0028d202012220939$PPMR__asset__false)" x="12.5%" y="12.5%"></image></svg>
+                            </div>
+                        </div>
+                        <div class="select_option_detail flex-wrap">
+                            <span class="select-val">夜銀</span>
+                            <span style="color:#666;">HK$7,800</span>
+                        </div>
+                    </div>
+                    <div class="style-group-box">
+                        <h3 class="sider-title">選取車輪</h3>
+                        <div class="style-select-group flex-wrap">
+                            <div class="btn-select-style">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container asset-loader-2 group--options_asset" style="overflow: hidden; opacity: 1; transform: scale(1); height: 60px;"><defs><clipPath id="clip_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_option-wheels-18-aero.png__version_v0028d202012220939_W40B__asset__false"><circle cx="50%" cy="50%" r="24" fill="#FFFFFF" stroke="#007fff" stroke-width="0"></circle></clipPath><filter id="filter_https:__static-assets.tesla.com_share_tesla_design_studio_assets_MODEL3_UI_option-wheels-18-aero.png__version_v0028d202012220939_W40B__asset__false" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur><feComponentTransfer><feFuncA type="linear" slope="0.3"></feFuncA></feComponentTransfer><feOffset dx="1.3" dy="1.5" result="offsetblur"></feOffset><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><circle cx="50%" cy="50%" r="45%" stroke="#007fff" stroke-width="4%" fill="white" fill-opacity="0"></circle><image width="75%" height="75%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/option-wheels-18-aero.png?&amp;version=v0028d202012220939" preserveAspectRatio="xMidYMid meet" alt="18’’ Aero 版車輪" clip-path="url(#clip_https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/option-wheels-18-aero.png?&amp;version=v0028d202012220939$W40B__asset__false)" x="12.5%" y="12.5%"></image></svg>
+                            </div>
+                        </div>
+                        <div class="select_option_detail flex-wrap">
+                            <span class="select-val">18’’ Aero 版車輪</span>
+                            <span style="color:#666;">已包括</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             <!-- 装饰风格 -->
-			<div class="mainbox mainbox3 flex-wrap">
+            <!-- <div class="mainbox mainbox3 flex-wrap">
 			    <div class="content-big flex-con flex-wrap" style="flex-direction: column;justify-content: space-between;">
 			        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="asset-loader--svg-container svg-banner svgimg-hide asset-loader-2 group--main-content--asset group--main-content--asset__PACKAGES m3" style="overflow: hidden; opacity: 1;height:100%; transform: scale(1);"><defs></defs><image width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://static-assets.tesla.cn/configurator/compositor?&amp;options=$IN3B2,$PBSB,$DV2W&amp;view=STUD_SEAT&amp;model=m3&amp;size=1441&amp;version=v0027d202012229999&amp;crop=0,0,0,0&amp;version=v0027d202012229999" preserveAspectRatio="xMidYMid slice" alt=""></image></svg>
 			    </div>
@@ -695,69 +827,71 @@
 					</div>
 			        
 			    </div>
-			</div>
+			</div> -->
             <!-- autopilot自动辅助驾驶 -->
             <!-- 付款方式 -->
-			<div class="mainbox mainbox4 flex-wrap" >
-			    <div class="content-big flex-con flex-wrap" style="flex-direction: column;justify-content: space-between;">
-					<div class="form-container">
-						
-						<div class="sec-title">輸入帳戶資料</div>
-						<div class="form-box flex-wrap">
-							<div class="form-item error">
-								<p class="labelname">名字（英文）</p>
-								<div class="input-box"><input type="text" class="name" /></div>
-								<p class="txt-err">姓名無效</p>
-							</div>
-							<div class="form-item">
-								<p class="labelname">姓氏（英文）</p>
-								<div class="input-box"><input type="text" class="pre-name" /></div>
-								<p class="txt-err">姓氏無效</p>
-							</div>
-							<div class="form-item">
-								<p class="labelname">電郵</p>
-								<div class="input-box"><input type="text" class="email" /></div>
-								<p class="txt-err">電郵無效</p>
-							</div>
-							<div class="form-item">
-								<p class="labelname">電話</p>
-								<div class="input-box"><input type="tel" class="phone" /></div>
-								<p class="txt-err">電話無效</p>
-							</div>
-						</div>
-					</div>
-			    </div>
-			    <div class="content-sider" style="padding: 10px 25px 50px;margin: 5px 0 10px;">
-					<div class="asset-zoom-wrap">
-						<div class="review-image flex-wrap"><img class="asset-compositor--image" src="https://static-assets.tesla.com/configurator/compositor?&amp;options=$W40B,$PPSW,$DV2W,$MT320,$IBB0,$DRRH&amp;view=STUD_3QTR&amp;model=m3&amp;size=1441&amp;bkba_opt=1&amp;version=v0028d202012220939&amp;crop=1300,450,300,300" alt="你的 Model 3" aria-label="你的 Model 3" role="presentation" style="transform: scale(1);"></div>
-						<h2 class="asset-title">你的 Model 3</h2>
-					</div>
-					<div class="sider-price-box order-detail">
-						<div class="title">訂單資料</div>
-						<ul style="margin-top:10px;">
-							<li class="flex-wrap"><span>Model 3 標準續航 Plus 後輪驅動</span><span class="item-price">HK$330,000</span></li>
-							<li class="flex-wrap"><span>珍珠白色塗層</span><span class="item-price">已包括</span></li>
-							<li class="flex-wrap"><span>18’’ Aero 版車輪</span><span class="item-price">已包括</span></li>
-							<li class="flex-wrap"><span>全黑色部分豪華內飾</span><span class="item-price">已包括</span></li>
-							<li class="flex-wrap"><span>Autopilot 自動輔助駕駛</span><span class="item-price">已包括</span></li>
-						</ul>
-					</div>
-					<div class="sider-price-box">
-						<div class="item flex-wrap"><span>節省估算成本後</span><span class="price-val">HK,300</span></div>
-						<div class="item flex-wrap"><span>節省估算成本後</span><span class="price-val">HK$435,000</span></div>
-						<div class="item flex-wrap"><span class="sub-txt">包括預計首次登記稅 HK$105,000</span></div>
-						<div class="item flex-wrap"><span class="sub-txt">現金價格不包括首次登記稅 HK$330,000</span></div>
-					</div>
-					<div class="sider-price-box">
-						<div class="item flex-wrap"><span>訂購預繳</span><span class="price-val">HK,300</span></div>
-						<div class="item flex-wrap"><span class="sub-txt">訂購費（不設退款）</span></div>
-					</div>
-			        <div class="order-agreement">點按「確認訂單」，即表示本人同意<a data-cfg-type="m3-order-agreement" target="_blank" href="https://www.tesla.com/zh_HK/order/download-order-agreement?redirect=no&amp;country=HK&amp;model_code=m3">Model&nbsp;3 訂購協議</a>、<a data-cfg-type="supercharger-fair-use-policy" target="_blank" href="https://www.tesla.com/zh_HK/about/legal?redirect=no#supercharger-fair-use">Supercharger 超級充電器合理使用政策</a>、<a data-cfg-type="customer-privacy-policy" target="_blank" href="https://www.tesla.com/zh_HK/about/legal?redirect=no#privacy-statement">顧客私隱政策</a>。</div>
-					<div class="order-payment">
-						<button type="button" class="btn-payment">確認訂單</button>
-					</div>
-			    </div>
-			</div>
+            <div class="mainbox mainbox3 flex-wrap">
+                <div class="content-big flex-con flex-wrap" style="flex-direction: column;justify-content: space-between;">
+                    <div class="form-container">
+
+                        <div class="sec-title">輸入帳戶資料</div>
+                        <div class="form-box flex-wrap">
+                            <div class="form-item error">
+                                <p class="labelname">名字（英文）</p>
+                                <div class="input-box"><input type="text" class="name" /></div>
+                                <p class="txt-err">姓名無效</p>
+                            </div>
+                            <div class="form-item">
+                                <p class="labelname">姓氏（英文）</p>
+                                <div class="input-box"><input type="text" class="pre-name" /></div>
+                                <p class="txt-err">姓氏無效</p>
+                            </div>
+                            <div class="form-item">
+                                <p class="labelname">電郵</p>
+                                <div class="input-box"><input type="text" class="email" /></div>
+                                <p class="txt-err">電郵無效</p>
+                            </div>
+                            <div class="form-item">
+                                <p class="labelname">電話</p>
+                                <div class="input-box"><input type="tel" class="phone" /></div>
+                                <p class="txt-err">電話無效</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-sider" style="padding: 10px 25px 50px;margin: 5px 0 10px;">
+                    <div class="asset-zoom-wrap">
+                        <div class="review-image flex-wrap"><img class="asset-compositor--image" src="https://static-assets.tesla.com/configurator/compositor?&amp;options=$W40B,$PPSW,$DV2W,$MT320,$IBB0,$DRRH&amp;view=STUD_3QTR&amp;model=m3&amp;size=1441&amp;bkba_opt=1&amp;version=v0028d202012220939&amp;crop=1300,450,300,300"
+                                alt="你的 Model 3" aria-label="你的 Model 3" role="presentation" style="transform: scale(1);"></div>
+                        <h2 class="asset-title">你的 Model 3</h2>
+                    </div>
+                    <div class="sider-price-box order-detail">
+                        <div class="title">訂單資料</div>
+                        <ul style="margin-top:10px;">
+                            <li class="flex-wrap"><span>Model 3 標準續航 Plus 後輪驅動</span><span class="item-price">HK$330,000</span></li>
+                            <li class="flex-wrap"><span>珍珠白色塗層</span><span class="item-price">已包括</span></li>
+                            <li class="flex-wrap"><span>18’’ Aero 版車輪</span><span class="item-price">已包括</span></li>
+                            <li class="flex-wrap"><span>全黑色部分豪華內飾</span><span class="item-price">已包括</span></li>
+                            <li class="flex-wrap"><span>Autopilot 自動輔助駕駛</span><span class="item-price">已包括</span></li>
+                        </ul>
+                    </div>
+                    <div class="sider-price-box">
+                        <div class="item flex-wrap"><span>節省估算成本後</span><span class="price-val">HK,300</span></div>
+                        <div class="item flex-wrap"><span>節省估算成本後</span><span class="price-val">HK$435,000</span></div>
+                        <div class="item flex-wrap"><span class="sub-txt">包括預計首次登記稅 HK$105,000</span></div>
+                        <div class="item flex-wrap"><span class="sub-txt">現金價格不包括首次登記稅 HK$330,000</span></div>
+                    </div>
+                    <div class="sider-price-box">
+                        <div class="item flex-wrap"><span>訂購預繳</span><span class="price-val">HK,300</span></div>
+                        <div class="item flex-wrap"><span class="sub-txt">訂購費（不設退款）</span></div>
+                    </div>
+                    <div class="order-agreement">點按「確認訂單」，即表示本人同意<a data-cfg-type="m3-order-agreement" target="_blank" href="https://www.tesla.com/zh_HK/order/download-order-agreement?redirect=no&amp;country=HK&amp;model_code=m3">Model&nbsp;3 訂購協議</a>、<a data-cfg-type="supercharger-fair-use-policy"
+                            target="_blank" href="https://www.tesla.com/zh_HK/about/legal?redirect=no#supercharger-fair-use">Supercharger 超級充電器合理使用政策</a>、<a data-cfg-type="customer-privacy-policy" target="_blank" href="https://www.tesla.com/zh_HK/about/legal?redirect=no#privacy-statement">顧客私隱政策</a>。</div>
+                    <div class="order-payment">
+                        <button type="button" class="btn-payment">確認訂單</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer class="footer-max footer flex-wrap">
@@ -781,26 +915,26 @@
                 <button type="button " class="btn-next">下一步</button>
             </div>
         </footer>
-		<footer class="footer-min footer" style="display: none;">
-		    <div class="finance-item finance-price " style="position: relative;">
-		        <div class="price-left">
-		            <div class="price-info-item">
-		                <span>HK$368,300</span>
-		                <span>已計算節省費用</span>
-		            </div>
-		            <div class="price-info-item">
-		                <span>HK$466,000</span>
-		                <span>購買價格</span>
-		            </div>
-		        </div>
-		        <div class="showDetail-btn">
-		            <span></span>
-		        </div>
-		    </div>
-		    <div class="finance-item">
-		        <button type="button " class="btn-next">下一步</button>
-		    </div>
-		</footer>
+        <footer class="footer-min footer" style="display: none;">
+            <div class="finance-item finance-price " style="position: relative;">
+                <div class="price-left">
+                    <div class="price-info-item">
+                        <span>HK$368,300</span>
+                        <span>已計算節省費用</span>
+                    </div>
+                    <div class="price-info-item">
+                        <span>HK$466,000</span>
+                        <span>購買價格</span>
+                    </div>
+                </div>
+                <div class="showDetail-btn">
+                    <span></span>
+                </div>
+            </div>
+            <div class="finance-item">
+                <button type="button " class="btn-next">下一步</button>
+            </div>
+        </footer>
     </div>
     <div class="modal-container flex-wrap" id="modal-container" style="display: none;">
         <div class="modal-content flex-wrap" style="flex-direction: column;">
@@ -809,131 +943,131 @@
             </div>
             <div class="modal-body flex-con">
                 <div class="modal-body-box">
-					<p>後輪胎輪：電機輪後輪</p>
-					<p>制動方式：電子剎車</p>
-					<p>減震方式：無</p>
-					<p>最大載重：100kg</p>
-					<p>最大時速：30km</p>
-					<p>燈具類型：無</p>
-					<p>後輪電動機率：350w</p>
-					<p>防水等級：IP54</p>
-					<p>電池壓及容量：36V(7.5AH)</p>
-					<p>前胎輪胎：實心胎前胎</p>
-					<p>制動方式：電子剎車</p>
-					<p>變速檔位：3速</p>
+                    <p>後輪胎輪：電機輪後輪</p>
+                    <p>制動方式：電子剎車</p>
+                    <p>減震方式：無</p>
+                    <p>最大載重：100kg</p>
+                    <p>最大時速：30km</p>
+                    <p>燈具類型：無</p>
+                    <p>後輪電動機率：350w</p>
+                    <p>防水等級：IP54</p>
+                    <p>電池壓及容量：36V(7.5AH)</p>
+                    <p>前胎輪胎：實心胎前胎</p>
+                    <p>制動方式：電子剎車</p>
+                    <p>變速檔位：3速</p>
                 </div>
             </div>
         </div>
     </div>
     <script src="./js/jquery-3.1.0.min.js"></script>
-	<script>
-		var curStep = 0
-		
-		
-		
-		$(function(){
-			
-			// 初始 时速 公里
-			new CountUp("kilometre-val", 0, 430, 0, 3).start();
-			new CountUp("speed-val", 0, 225, 0, 3).start();
-			new CountUp("second-val", 0, 5.6, 1, 3).start();
-			
-			
-			// 切换menu
-			$('.header .menu').on('click','li', function(){
-				var that = $(this)
-				if(that.hasClass('menu-item_selected')) return
-				curStep = $(this).index()
-				that.addClass('menu-item_selected').siblings().removeClass('menu-item_selected')
-				$('.mainbox').css('display','none')
-				$('.mainbox'+(that.index()+1)).css('display','flex')
-				setTimeout(function(){
-					if(!$('.mainbox'+(that.index()+1)+' svg').hasClass('svgimg-hide')) return
-					$('.mainbox'+(that.index()+1)+' svg').removeClass('svgimg-hide')
-				},300)
-				var $nextBtn = $('.footer .btn-next')
-				if($('.header .menu li').length - 1 == curStep) {
-					$nextBtn.addClass('disabled')
-					$nextBtn.text('確認訂單')
-				}else {
-					$nextBtn.removeClass('disabled')
-					$nextBtn.text('下一步')
-				}
-				if(!curStep) {
-					new CountUp("kilometre-val", 0, 430, 0, 3).start();
-					new CountUp("speed-val", 0, 225, 0, 3).start();
-					new CountUp("second-val", 0, 5.6, 1, 3).start();
-				}
-			})
-			
-			// 弹出内饰说明modal
-			$('.btn-group-select').on('click', function(){
-				if($(this).data().contentpart == 1) {
-					
-				}
-				$('#modal-container').slideToggle('slow')
-				$('.header').slideUp('slow',function(){					
-					$('.main-page').css({
-						paddingTop: '0',
-						paddingBottom: '0'
-					})
-				})
-				if($(window).width() > 862) {
-					$('.footer-max').slideUp('slow')
-				}
-			})
-			// 关闭modal
-			$('#modal-container').on('click','.head-close-box',function(){
-				$('#modal-container').slideToggle('slow')
-				$('.header').slideDown('slow',function(){					
-					$('.main-page').css({
-						paddingTop: '76px',
-						paddingBottom: $(window).width() > 862 ? '90px' : 0
-					})
-				})
-				if($(window).width() > 862) {
-					$('.footer-max').slideDown('slow')
-				}
-			})
-			
-			// 选择款式
-			$('.content-sider').on('click','.group-btn',function(){
-				if($(this).hasClass('group-btn-selected')) return
-				$('.content-sider .group-btn').removeClass('group-btn-selected')
-				$(this).addClass('group-btn-selected')
-			})
-			
-			// 选择颜色
-			$('.style-select-group').on('click','.btn-select-style',function(){
-				if($(this).hasClass('btn-selected-style')) return
-				$(this).addClass('btn-selected-style').siblings().removeClass('btn-selected-style')
-			})
-			
-			// 下一步
-			$('.footer').on('click', '.btn-next', function(){
-				if($('.header .menu li').length - 1 == curStep) {
-					// 确认订单
-					return 
-				}
-				
-				curStep++
-				var menuItem = $('.header .menu li').eq(curStep)
-				menuItem.addClass('menu-item_selected').siblings().removeClass('menu-item_selected')
-				$('.mainbox').css('display','none')
-				$('.mainbox'+(curStep+1)).css('display','flex')
-				setTimeout(function(){
-					if(!$('.mainbox'+(curStep+1)+' svg').hasClass('svgimg-hide')) return
-					$('.mainbox'+(curStep+1)+' svg').removeClass('svgimg-hide')
-				},300)
-				if($('.header .menu li').length - 1 == curStep) {
-					$(this).addClass('disabled')
-					$(this).text('確認訂單')
-				}
-			})
-			
-			
-		})
-	</script>
+    <script>
+        var curStep = 0
+
+
+
+        $(function() {
+
+            // 初始 时速 公里
+            new CountUp("kilometre-val", 0, 430, 0, 3).start();
+            new CountUp("speed-val", 0, 225, 0, 3).start();
+            new CountUp("second-val", 0, 5.6, 1, 3).start();
+
+
+            // 切换menu
+            $('.header .menu').on('click', 'li', function() {
+                var that = $(this)
+                if (that.hasClass('menu-item_selected')) return
+                curStep = $(this).index()
+                that.addClass('menu-item_selected').siblings().removeClass('menu-item_selected')
+                $('.mainbox').css('display', 'none')
+                $('.mainbox' + (that.index() + 1)).css('display', 'flex')
+                setTimeout(function() {
+                    if (!$('.mainbox' + (that.index() + 1) + ' svg').hasClass('svgimg-hide')) return
+                    $('.mainbox' + (that.index() + 1) + ' svg').removeClass('svgimg-hide')
+                }, 300)
+                var $nextBtn = $('.footer .btn-next')
+                if ($('.header .menu li').length - 1 == curStep) {
+                    $nextBtn.addClass('disabled')
+                    $nextBtn.text('確認訂單')
+                } else {
+                    $nextBtn.removeClass('disabled')
+                    $nextBtn.text('下一步')
+                }
+                if (!curStep) {
+                    new CountUp("kilometre-val", 0, 430, 0, 3).start();
+                    new CountUp("speed-val", 0, 225, 0, 3).start();
+                    new CountUp("second-val", 0, 5.6, 1, 3).start();
+                }
+            })
+
+            // 弹出内饰说明modal
+            $('.btn-group-select').on('click', function() {
+                    if ($(this).data().contentpart == 1) {
+
+                    }
+                    $('#modal-container').slideToggle('slow')
+                    $('.header').slideUp('slow', function() {
+                        $('.main-page').css({
+                            paddingTop: '0',
+                            paddingBottom: '0'
+                        })
+                    })
+                    if ($(window).width() > 862) {
+                        $('.footer-max').slideUp('slow')
+                    }
+                })
+                // 关闭modal
+            $('#modal-container').on('click', '.head-close-box', function() {
+                $('#modal-container').slideToggle('slow')
+                $('.header').slideDown('slow', function() {
+                    $('.main-page').css({
+                        paddingTop: '76px',
+                        paddingBottom: $(window).width() > 862 ? '90px' : 0
+                    })
+                })
+                if ($(window).width() > 862) {
+                    $('.footer-max').slideDown('slow')
+                }
+            })
+
+            // 选择款式
+            $('.content-sider').on('click', '.group-btn', function() {
+                if ($(this).hasClass('group-btn-selected')) return
+                $('.content-sider .group-btn').removeClass('group-btn-selected')
+                $(this).addClass('group-btn-selected')
+            })
+
+            // 选择颜色
+            $('.style-select-group').on('click', '.btn-select-style', function() {
+                if ($(this).hasClass('btn-selected-style')) return
+                $(this).addClass('btn-selected-style').siblings().removeClass('btn-selected-style')
+            })
+
+            // 下一步
+            $('.footer').on('click', '.btn-next', function() {
+                if ($('.header .menu li').length - 1 == curStep) {
+                    // 确认订单
+                    return
+                }
+
+                curStep++
+                var menuItem = $('.header .menu li').eq(curStep)
+                menuItem.addClass('menu-item_selected').siblings().removeClass('menu-item_selected')
+                $('.mainbox').css('display', 'none')
+                $('.mainbox' + (curStep + 1)).css('display', 'flex')
+                setTimeout(function() {
+                    if (!$('.mainbox' + (curStep + 1) + ' svg').hasClass('svgimg-hide')) return
+                    $('.mainbox' + (curStep + 1) + ' svg').removeClass('svgimg-hide')
+                }, 300)
+                if ($('.header .menu li').length - 1 == curStep) {
+                    $(this).addClass('disabled')
+                    $(this).text('確認訂單')
+                }
+            })
+
+
+        })
+    </script>
 </body>
 
 </html>
